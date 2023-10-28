@@ -5,3 +5,13 @@
 providers:
   openweathermap: openweathermapapikey
   weatherapi: weatherapiapikey
+
+language: zh-CN
+title: 无敌冰导航
+
+background:
+  image: https://pic.rmb.bdstatic.com/bjh/user/7aeb2dad3c5f79816110b062121b5be3.jpeg
+  blur: sm # sm, "", md, xl... see https://tailwindcss.com/docs/backdrop-blur
+  saturate: 50 # 0, 50, 100... see https://tailwindcss.com/docs/backdrop-saturate
+  brightness: 50 # 0, 50, 75... see https://tailwindcss.com/docs/backdrop-brightness
+  opacity: 50 # 0-100

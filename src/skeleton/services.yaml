@@ -2,16 +2,37 @@
 # For configuration options and examples, please see:
 # https://gethomepage.dev/latest/configs/services
 
-- My First Group:
-    - My First Service:
-        href: http://localhost/
-        description: Homepage is awesome
-
-- My Second Group:
-    - My Second Service:
-        href: http://localhost/
-        description: Homepage is the best
-
+- 软路由与NAS:
+    - ikuai:
+        icon: https://www.ikuai8.com/images/logo1.png
+        href: http://ikuai.188sf.top:880
+        ping: http://ikuai.188sf.top:880 
+        widget:
+          type: ikuai
+          url: http://ikuai.188sf.top:880
+          username: admin
+          password: xu931107
+    - 群晖:
+        icon: https://pic6.58cdn.com.cn/nowater/webim/big/n_v2c86a2c1987d146a3bf3c2791a93152b2.jpg
+        href: http://nass.188sf.top:5000
+        ping: http://nass.188sf.top:5000
+        widget:
+          type: diskstation
+          url: http://nass.188sf.top:5000
+          username: DS3617
+          password: Xu931107..    
+- 虚拟机:
+    - PVE:
+        icon: https://pic4.58cdn.com.cn/nowater/webim/big/n_v270beeddf5bf24c6394c89e0810111a28.png
+        href: https://pve.188sf.top:8006
+        ping: https://pve.188sf.top:8006
+        description: 运行虚拟机与容器的平台
+        widget:
+          type: proxmox
+          url: https://pve.188sf.top:8006
+          username: API@pam!xu985795385
+          password: d30df762-c690-46c2-babb-052836d76fe1
+          node: pve # optional
 - My Third Group:
     - My Third Service:
         href: http://localhost/
